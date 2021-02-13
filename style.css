@@ -1,0 +1,35 @@
+body{
+    background: black;
+}
+
+.imgBox{
+    background-image: url(spider.png);
+    position: relative;
+    top: 5px;
+    height: 145px;
+    width: 145;
+    cursor: pointer;
+}
+
+.whiteBox{
+    display: inline-block;
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background: white;    
+    border: 5px red solid;
+}
+
+.hold{
+    border: 5px blue solid;
+}
+
+.dashed{
+    background: violet;
+    border-style: dashed;
+
+}
+
+.hide{
+    display: none;
+}
